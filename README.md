@@ -1,3 +1,3 @@
-# loop-breaker-service
+# Loop Breaker Service
 
-![](https://travis-ci.com/loop-breaker/loop-breaker-site.svg?branch=master)
+![](https://travis-ci.org/loop-breaker/loop-breaker-service.svg?branch=master)
