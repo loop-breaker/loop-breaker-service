@@ -21,7 +21,7 @@ public abstract class AbstractLoopBreakerServiceTest {
      @Test
      public void testCreatingALoopReturnsAnIdentifier() {
           LoopBreakerService svc = getService();
-          String id = svc.createLoop(new Loop("Test"));
+          String id = svc.createLoop(new Loop("test"));
           assertThat(id, is(notNullValue()));
      }
 
@@ -54,7 +54,7 @@ public abstract class AbstractLoopBreakerServiceTest {
      @Test
      public void testLoopRetrievalReturnsALoop() {
           LoopBreakerService svc = getService();
-          String id = svc.createLoop(new Loop("Test"));
+          String id = svc.createLoop(new Loop("test"));
           assertThat(svc.getById(id), is(notNullValue()));
      }
 
